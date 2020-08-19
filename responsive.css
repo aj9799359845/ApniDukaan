@@ -135,11 +135,11 @@
 
 @media only screen and (min-height: 700px){
     .contact{
-        height: 73vh;
+        height: 40vh;
 
     }
     .firstSection{
-        height: 60vh;
+        height: 25vh;
 
     }
 }
