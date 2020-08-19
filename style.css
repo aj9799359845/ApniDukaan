@@ -251,6 +251,8 @@ label{
     top: 10px;
     display: none;
     cursor: pointer;
+    /* position: sticky; */
+
 }
 .line{
     width: 35px;
