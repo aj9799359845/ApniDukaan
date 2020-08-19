@@ -84,7 +84,7 @@
             text-align: center;
         }
         .buttons{
-            width: 113%;
+    width: 98%;
     
         }
         .setRight{
@@ -115,8 +115,8 @@
     
         }
         .text{
-            width: 65%;
-            margin-left: 90px;
+            width: 64%;
+            margin-left: 89px;
             font-size: 15px;
     
         }
@@ -126,5 +126,9 @@
         button.btn{
             margin: 10px 0;
             font-size: 12px;
+        }
+        .footer-center{
+            height: 54px;
+    font-size: 18px;
         }
     }
