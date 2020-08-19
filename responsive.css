@@ -1,0 +1,130 @@
+/* responsive Css here */
+@media only screen and (max-width: 1200px){
+    .text-large{
+        font-size: 30px;
+    }
+    .contact-form input{
+        width: 70%;
+    }
+    .text{
+        width: 70%;
+        margin-left: 115px;
+    
+    }
+    }
+    
+    @media only screen and (max-width:900px){
+        .text{
+            margin-left: 95px;
+    
+        }
+        .setRight img{
+            height: 330px;
+            width: 80%;
+    
+        }
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            height: 73vh;
+            transition: all 0.3s ease-out;
+    
+        }
+        .nav-list{
+            flex-direction: column;
+        }
+        .right-nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+        .right-nav #search{
+            /* display: block; */
+        width: 40%;
+        }
+        .right-nav button{
+            width:20%;
+        }
+        .burger{
+            display: block;
+        }
+        .h-nav-resp{
+            height: 72px;
+            
+        }
+        .v-class-resp{
+            opacity: 0;
+        }
+    }
+    @media only screen and (max-width:670px){
+        .right-nav button {
+        width:38%;
+        }
+        .contact-form{
+            max-width: 74%;
+        }
+        .contact-form input{
+            width: 69%;
+        }
+    .text{
+        margin-left: 85px;
+    
+    }
+        
+    }
+    
+    @media only screen and (max-width: 530px){
+        .box-main{
+            flex-direction: column-reverse;
+            height: 100vh;
+    
+        }
+        .box-main .firstHalf{
+            text-align: center;
+        }
+        .buttons{
+            width: 113%;
+    
+        }
+        .setRight{
+            flex-direction: column;
+    
+        }
+        .setRight .paras{
+            margin-right: 70px;
+    
+        }
+        .text-small{   
+            width: 300px;
+        }
+        .setRight img{
+            width: 242%;
+            margin-top: 0;
+        }
+        .setRight .thumbnail{
+            margin-right: 130px;
+    
+        }
+        .contact-form{
+            max-width: 100%;
+    
+        }.contact-form input{
+            width: 64%;
+            font-size: 15px;
+    
+        }
+        .text{
+            width: 65%;
+            margin-left: 90px;
+            font-size: 15px;
+    
+        }
+        .contact{   
+             margin-top: 35px;
+        }
+        button.btn{
+            margin: 10px 0;
+            font-size: 12px;
+        }
+    }
